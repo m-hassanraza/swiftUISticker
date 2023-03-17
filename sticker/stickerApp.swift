@@ -11,7 +11,16 @@ import SwiftUI
 struct stickerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ScrollView{
+                ZStack{
+                    Sticker()
+                    Sticker()
+                    Sticker()
+                    Sticker()
+                    Sticker()
+                }
+                
+            }
         }
     }
 }
