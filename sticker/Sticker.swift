@@ -54,7 +54,6 @@ struct Sticker: View {
         }else{
             return size.height
         }
-//        return fontSizeRatio
     }
     
     var body: some View {
